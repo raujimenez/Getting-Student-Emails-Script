@@ -8,7 +8,7 @@ This only give the approximate emails of the students. If they have numbers in t
 
 
 ## Pre-requisites
--Have python installed. You can install it on [https://www.python.org/](https://www.python.org/). Just make sure you download python 3.xx or later.
+- Have python installed. You can install it on [https://www.python.org/](https://www.python.org/). Just make sure you download python 3.xx or later.
 
 
 # Getting Started
@@ -17,6 +17,7 @@ This only give the approximate emails of the students. If they have numbers in t
 	 - `git clone https://github.com/raujimenez/Getting-Student-Emails-Script.git`
 	- Alternatively you can just download the zip
 - Once the files are downloaded go into the folder where you download the files
+- Open a terminal window in that directory
 - Run the python script:
 	-  Windows: `python email_generation.py` 
 	- Linux/Mac: `python3 email_generation.py` 
