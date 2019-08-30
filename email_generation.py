@@ -14,7 +14,7 @@ import json
     for more information please visit the api for canvas
 """
 
-course_id = input('Input the course id you see in the url of your canvas class. It will typically look like (https://uta.instructure.com/courses/<NUMBER YOU WANT>): ')
+course_id = input('Input the course id (can be found on URL bar when looking at course): ')
 
 # I know that students is deprecated but I used it because users did not return the full class roster
 URL = "https://uta.instructure.com/api/v1/courses/" + course_id + "/students"
